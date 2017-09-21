@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Location Based Messaging</string>
+    <string name="login_user_name" />
+    <string name="buttonLogin">Login</string>
+    <string name="buttonRegister">Register</string>
+    <string name="button_register_register">Register</string>
+    <string name="text_view_compose_to">To:</string>
+    <string name="text_view_compose_region">Region:</string>
+    <string name="button_send">Send</string>
+    <string name="text_view_from_label">From:</string>
+    <string name="text_view_read_region_label">Region:</string>
+</resources>

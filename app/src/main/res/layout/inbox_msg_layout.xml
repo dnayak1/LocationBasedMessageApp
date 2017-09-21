@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border">
+
+
+    <ImageView
+        android:id="@+id/imageViewBlue"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/circle_blue" />
+
+    <ImageView
+        android:id="@+id/imageViewGrey"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/circle_grey" />
+
+    <TextView
+        android:id="@+id/textViewInboxName"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageViewBlue"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewInboxMessage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewInboxName"
+        android:layout_marginLeft="50dp"
+        android:minLines="1"
+        android:maxLines="2"/>
+
+    <TextView
+        android:id="@+id/textViewInboxDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imageViewLock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textViewInboxDate"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/lock" />
+
+    <ImageView
+        android:id="@+id/imageViewUnlock"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewInboxDate"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/lock_open" />
+</RelativeLayout>
